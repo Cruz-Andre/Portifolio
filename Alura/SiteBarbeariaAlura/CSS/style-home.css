@@ -208,7 +208,7 @@ Para realizar isso, utilizaremos o @media, com o valor do tipo de tela screen e 
     }
 }
 
-@media screen and (max-height: 940px) {
+@media screen and (max-height: 920px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
     }
