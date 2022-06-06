@@ -54,11 +54,12 @@ nav a:hover {
     clear: left;
 }
 
-/*
+/* Pseudo elementos para negritar apenas a primeira letra desse título
 .titulo-principal::first-letter {
     font-weight: bold;
 }
 
+Conheceremos ainda outros dois pseudo-elementos do CSS: after e before. Esses dois elementos criam espaço para que o CSS atue antes ou depois de um determinado conteúdo.
 .titulo-principal::before{
     content: "[ ";
 }
@@ -123,11 +124,11 @@ nav a:hover {
     line-height: 1.5;
 }
 
-.itens:first-child {
+.itens:first-child {  /*Pseudo elementos para seleção elementos específicos */
     font-weight: bold;
 }
 
-.itens::before{
+.itens:before{ /*Pseudo elementos para seleção elementos específicos */
     content: "🟊";
 }
 
@@ -135,7 +136,7 @@ nav a:hover {
     width: 60%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 10px #000000;
+    box-shadow: 10px 10px 10px 0 #000000; /* x, y, blur, alcance da sobra e color. */
 }
 
 .imagem-beneficios:hover {
@@ -159,23 +160,116 @@ footer {
     margin-top: 20px;
 }
 
+/*para otimizar a visualização em celulares, Perguntaremos ao navegador qual é o tamanho da tela em questão e, se for aquele que desejamos, entregaremos o estilo correto.
+
+Para realizar isso, utilizaremos o @media, com o valor do tipo de tela screen e a pesquisa. Todas as telas que tenham até 450, terão esse estilo diferente, reescrito. */
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+    nav li {
+        margin: 0% 0% 0% 2%;
+    }
+
+    .principal {
+        padding: 1em 0;
+        margin: 0 1%;
+    }
+
+    .mapa, .beneficios  {
+        padding: 1em 0;
+    }
+    
+    .mapa-conteudo {
+        margin: 0 2% 0;
+    }
+
+    .lista-beneficios{
+        width: auto;
+        margin: 0% 2% 5%;
+    }
+
+    .imagem-beneficios {
+        width: 80%;
+        margin: 0% 5% 0%;
+    }
+
+    .video {
+        padding: 1% 1% 1%;
+    }
+}
+
+@media screen and (max-height: 940px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+    nav li {
+        margin: 0% 0% 0% 2%;
+    }
+
+    .principal {
+        padding: 1em 0;
+        margin: 0 1%;
+    }
+
+    .mapa, .beneficios  {
+        padding: 1em 0;
+    }
+    
+    .mapa-conteudo {
+        margin: 0 2% 0;
+    }
+
+    .lista-beneficios{
+        width: auto;
+        margin: 0% 2% 5%;
+    }
+
+    .imagem-beneficios {
+        width: 80%;
+        margin: 0% 5% 0%;
+    }
+
+    .video {
+        padding: 1% 1% 1%;
+    }
+}
+
 /* seletores avançados
-seletor >, para acessar os filhos de determinado elemento. Por exemplo, para acessar todos os p dentro de main:
+seletor ">", para acessar os filhos de determinado elemento. Por exemplo, para acessar todos os p dentro de main:
 main > p {
     background: red;
 }
 
-Seletor +, para acessar o primeiro irmão de determinado elemento. Por exemplo, para acessar o primeiro p após um img:
+Seletor "+", para acessar o primeiro irmão de determinado elemento. Por exemplo, para acessar o primeiro p após um img:
 img + p {
     background: blue;
 }
 
-Seletor ~, para acessar todos os irmãos de determinado elemento. Por exemplo, para acessar todos os p após um img:
+Seletor "~", para acessar todos os irmãos de determinado elemento. Por exemplo, para acessar todos os p após um img:
 img ~ p {
     background: yellow;
 }
 
-Seletor not, para acessar os elementos, exceto algum. Por exemplo, para acessar todos os p dentro de main, exceto o p que tem id missao:
+Seletor "not", para acessar os elementos, exceto algum. Por exemplo, para acessar todos os p dentro de main, exceto o p que tem id missao:
 .principal p:not(#missao) {
     background: orange;
 }

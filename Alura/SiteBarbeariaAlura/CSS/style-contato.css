@@ -107,3 +107,65 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+
+/*para otimizar a visualização em celulares, Perguntaremos ao navegador qual é o tamanho da tela em questão e, se for aquele que desejamos, entregaremos o estilo correto.
+
+Para realizar isso, utilizaremos o @media, com o valor do tipo de tela screen e a pesquisa. Todas as telas que tenham até 450, terão esse estilo diferente, reescrito. */
+
+@media screen and (max-width: 480px) and (max-height: 940px) {
+    .caixa, .produtos {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+
+    main {
+        width: auto;
+    }
+
+    form {
+        margin: 2% 2%;
+    }
+
+    .enviar {
+        width: auto;
+        margin: 5% 10%;
+        padding: 2% 10%;
+    }
+
+}
+
+@media screen and (max-height: 940px) {
+    .caixa, .produtos {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    main {
+        width: auto;
+    }
+
+    form {
+        margin: 2% 2%;
+    }
+
+    .enviar {
+        width: auto;
+        margin: 5% 10%;
+        padding: 2% 10%;
+    }
+
+}
