@@ -1,1 +1,1 @@
-# Exercícios em HTML5, CSS3 e Bootstrap. Curso Alura Compass.Uol
+# Exercícios em HTML5, CSS3, Bootstrap e JavaScript. Curso Alura Compass.Uol
