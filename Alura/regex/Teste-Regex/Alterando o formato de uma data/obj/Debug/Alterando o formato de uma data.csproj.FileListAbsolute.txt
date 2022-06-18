@@ -1,0 +1,8 @@
+C:\Users\cruza\source\repos\Teste-Regex\Alterando o formato de uma data\bin\Debug\Alterando o formato de uma data.exe.config
+C:\Users\cruza\source\repos\Teste-Regex\Alterando o formato de uma data\bin\Debug\Alterando o formato de uma data.exe
+C:\Users\cruza\source\repos\Teste-Regex\Alterando o formato de uma data\bin\Debug\Alterando o formato de uma data.pdb
+C:\Users\cruza\source\repos\Teste-Regex\Alterando o formato de uma data\obj\Debug\Alterando o formato de uma data.csproj.AssemblyReference.cache
+C:\Users\cruza\source\repos\Teste-Regex\Alterando o formato de uma data\obj\Debug\Alterando o formato de uma data.csproj.SuggestedBindingRedirects.cache
+C:\Users\cruza\source\repos\Teste-Regex\Alterando o formato de uma data\obj\Debug\Alterando o formato de uma data.csproj.CoreCompileInputs.cache
+C:\Users\cruza\source\repos\Teste-Regex\Alterando o formato de uma data\obj\Debug\Alterando o formato de uma data.exe
+C:\Users\cruza\source\repos\Teste-Regex\Alterando o formato de uma data\obj\Debug\Alterando o formato de uma data.pdb

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Testes de Regex e Testando pattern</title>
+    </head>
+    <body>
+        <main>
+            [JavaScript e HTML] A praticidade do atributo pattern para formulários.
+            <form>
+                <input pattern="[0-9]*">
+                <input type="submit" value="Enviar dados">
+            </form>
+
+        </main>
+    </body>
+    <script>
+        // var alvo = '11a22b33c';
+        
+        // var exp  = new RegExp('(\\d\\d)(\\w)', 'g');
+        // // testa se a regex existe dentro do alvo, retorna true ou false
+        // //console.log(exp.test(alvo));
+        
+        // //usar essa forma quando a regex for fixa, quando sabe que é essa regex para utilizar.
+        // var exp1  = /(\d\d)(\w)/g;
+        // // testa se a regex existe dentro do alvo, retorna true ou false
+        // //console.log(exp1.test(alvo));
+
+        // var resultado = null;
+        // while(resultado = exp.exec(alvo)) {
+        //     console.log(resultado);
+        //     console.log("exp: " + exp.lastIndex);
+        // };
+        
+        // var resultado1 = null;
+        // while(resultado1 = exp1.exec(alvo)){
+        //     console.log(resultado1);
+        //     console.log("exp1: " + exp1.lastIndex);
+        // }
+            
+        //[JavaScript] Alterando o formato de uma data
+        var anoMesDia = '2007-12-31';
+        var exp = /-/g;
+        //console.log(exp.test(anoMesDia));
+        anoMesDia = anoMesDia.replace(exp, '/');
+        console.log(anoMesDia);
+
+        
+        //[JavaScript] O poder do `split`
+        var arquivo = '100,200-150,200;20';
+        var expSplit = /[,;-]/;
+        var valores = arquivo.split(expSplit);
+        console.log(valores);
+
+        
+        //[JavaScript] O retorno de match!
+        var codigos = 'A121B12112C12212F12G01';
+        var expMatch = /[A-Za-z]\d+/g;
+        var codigosExtraidos = codigos.match(expMatch);
+        console.log(codigosExtraidos);
+    </script>
+</html>
