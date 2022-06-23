@@ -1,0 +1,38 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /*Dividir o body em áreas*/
+    grid-template-areas: 
+        "cabecalho" 
+        "conteudo"
+        "rodape";
+
+    grid-template-columns: auto;
+
+    /* São 3 linhas 1º linha cabeçalho 2ª linha conteudo 3ª linha rodapé */
+    grid-template-rows: 50px auto auto;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    grid-area: cabecalho; /*necessário para relacionar com a classe cabeçalho e a definição do template*/
+}
+ 
+.conteudo {
+/*  background: #ff8080; */
+    grid-area: conteudo; /*necessário para relacionar com a classe cabeçalho e a definição do template*/
+    padding: 0 2rem;
+}
+
+.rodape {
+    background: #fdfdfd;
+    color: #333;
+    font-size: 0.8rem;
+    padding: 1rem;
+    text-align: center;
+    grid-area: rodape; /*necessário para relacionar com a classe cabeçalho e a definição do template*/
+}
