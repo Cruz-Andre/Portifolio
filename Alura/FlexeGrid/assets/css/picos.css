@@ -1,0 +1,6 @@
+@import url("styles.css");
+
+.cartao__botao--play::before {
+    content: "\e908";
+    font-size: 24px;
+}

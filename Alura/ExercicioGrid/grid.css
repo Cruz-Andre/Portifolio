@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    background-color: #444444;    
+    width: 100vw;
+    height: 100vh;
+    /* colocando o display em grid */
+    display: grid;
+    /* montando o grid de 4x4 */
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    /* propriedade do grid para espaçamento substituíndo o margin */
+    gap: 16px;
+
+    /* Mas um detalhe aqui é que essa propriedade não adiciona espaçamento nas partes dos elementos que encostam no grid container. Então depois de adicionar a propriedade gap, precisamos alterar o valor da propriedade padding para 16px */
+    padding: 16px;
+}
+
+.cabecalho {
+    background-color: #cc2a2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    /* margin: 8px; removendo e substituindo por gap */
+    
+    /* mesclando as 4ª colunas da 1ª linha */
+    grid-column: span 4;
+    
+    /* exercicio para fazer o espelho das posições 
+    grid-column: span 4; */
+    
+}
+
+.lateral {
+    background-color: #45cc2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    /* margin: 8px; removendo e substituindo por gap */
+
+    /* mesclando 3ª linhas da 1ª coluna */
+    grid-row: span 3;
+
+    /* exercicio para fazer o espelho das posições
+    grid-row: 1 / span 3; 
+    grid-column: 4;  */
+    
+}
+
+.meio {
+    background-color: #2aa6cc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    /* margin: 8px; removendo e substituindo por gap */
+    
+    /* mesclando as 2 colunas com 3 linhas */
+    grid-column: span 2;
+    grid-row: span 3;
+
+    /* exercicio para fazer o espelho das posições
+    grid-column: span 2;
+    grid-row: 1 / span 3; */
+}
+
+.direita-cima {
+    background-color: #352acc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    /* margin: 8px; removendo e substituindo por gap */
+    
+    /* exercicio para fazer o espelho das posições
+    grid-row: 3;
+    grid-column: 1; */
+}
+
+.direita-baixo {
+    background-color: #cc2a96;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    /* margin: 8px; removendo e substituindo por gap */
+
+    /* mesclando 2 linhas em uma coluna */
+    grid-row: span 2;
+    
+
+    /* exercicio para fazer o espelho das posições
+    grid-column: 1;
+    grid-row: 1 / span 2; */
+}
