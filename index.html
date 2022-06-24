@@ -5,29 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Exercícios cursos Alura</title>
 </head>
 <body>
-    <header class="cabecalho">GitHub Pages dos Sites-Exercicios-Curso-Alura-Compass.Uol</header>
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg fixed-top container__secao">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">André Cruz GitHub Pages</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#pessoais">Projetos pessoais</a>
+                  <a class="nav-link" href="#codecamp">Projetos pessoais com base da freeCodeCamp</a>
+                  <a class="nav-link" href="#alura">Exercícios e desafios da Alura</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
     <main>
-        <h3>TODO:</h3>
-        <ol>
-            <li>
-                <h4>Cabeçalho e/ou barra de navegação</h4>
-            </li>
-            <li>
-                <h4>Rodapé</h4>
-            </li>
-            <li>
-                <h4>Melhorar design</h4>
-            </li>
-
-        </ol>
-        <section class="container-fluid bg-light">
-            <h1 class="container__titulo">Projetos pessoais</h1>
+        <section id="pessoais" class="container-fluid container__secao">
             <div class="row text-center justify-content-center">
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <h1 class="container__titulo">Projetos pessoais</h1>
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/imc.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Barbearia Alura">
                     <div class="card-body">
                     <h5 class="card-title">Site Calculadora IMC</h5>
@@ -37,7 +42,7 @@
                     </div>
                 </article>
 
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" aria-hidden="true">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" aria-hidden="true">
                     <img src="img/afazer2.jpg" class="card-img-top card-posicao-imagem" alt="na fila para fazer">
                     <div class="card-body">
                       <h5 class="card-title">
@@ -54,14 +59,13 @@
                       <a href="#" tabindex="-1" class="btn btn-info botao-cor-especial disabled placeholder col-6"></a>
                     </div>
                 </article>
-
             </div>
         </section>
-        <hr>
-        <section class="container-fluid bg-light">
-            <h1 class="container__titulo">Projetos pessoais com base nos desafios da freeCodeCamp</h1>
+        
+        <section id="codecamp" class="container-fluid container__secao">
             <div class="row text-center justify-content-center">
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <h1 class="container__titulo">Projetos pessoais com base nos desafios da freeCodeCamp</h1>
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/tribute.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Barbearia Alura">
                     <div class="card-body">
                     <h5 class="card-title">Site em homenagem</h5>
@@ -71,7 +75,7 @@
                     </div>
                 </article>
             
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/form.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Fruta e Fruto">
                     <div class="card-body">
                     <h5 class="card-title">Site Formulário</h5>
@@ -81,7 +85,7 @@
                     </div>
                 </article>
 
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" aria-hidden="true">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" aria-hidden="true">
                     <img src="img/afazer.jpg" class="card-img-top card-posicao-imagem" alt="na fila para fazer">
                     <div class="card-body">
                       <h5 class="card-title">
@@ -100,74 +104,84 @@
             </div>
             
         </section>
-        <hr>
-        <section class="container-fluid bg-light">
-            <h1 class="container__titulo">Exercícios e desafios feitos dos cursos da Alura</h1>
+        
+        <section id="alura" class="container-fluid container__secao">
             <div class="row text-center justify-content-center">
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <h1 class="container__titulo">Exercícios e desafios feitos dos cursos da Alura</h1>
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/alura.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Barbearia Alura">
                     <div class="card-body">
                     <h5 class="card-title">Site Barbearia Alura</h5>
                     <p class="card-text">Site com responsividade mobile ajustada e desafios feitos.</p>
                     <a href="./Alura/SiteBarbeariaAlura/index.html" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
+                    <a href="https://github.com/Cruz-Andre/Exercicios-Curso-Alura-Compass.Uol/tree/main/Alura/SiteBarbeariaAlura" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
                     </div>
                 </article>
             
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/fruta.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Fruta e Fruto">
                     <div class="card-body">
                     <h5 class="card-title">Site Fruta e Fruto</h5>
                     <p class="card-text">Página com Bootstrap 5 e responsividade mobile</p>
                     <a href="./Alura/bootstrap-landing-page-projeto-base/index.html" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
+                    <a href="https://github.com/Cruz-Andre/Exercicios-Curso-Alura-Compass.Uol/tree/main/Alura/bootstrap-landing-page-projeto-base" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
                     </div>
                 </article>
 
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/doguito.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Fruta e Fruto">
                     <div class="card-body">
                     <h5 class="card-title">Site Doguito</h5>
                     <p class="card-text">Validação de formulário com javascript</p>
                     <a href="./Alura/validacao-de-formularios-doguito/cadastro.html" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
+                    <a href="https://github.com/Cruz-Andre/Exercicios-Curso-Alura-Compass.Uol/tree/main/Alura/validacao-de-formularios-doguito" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
                     </div>
                 </article>
 
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/aluramais.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Fruta e Fruto">
                     <div class="card-body">
                     <h5 class="card-title">Site Alura Plus</h5>
                     <p class="card-text">Site do curso praticando HTML e CSS</p>
                     <a href="./Alura/alura-plus/index.html" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
+                    <a href="https://github.com/Cruz-Andre/Exercicios-Curso-Alura-Compass.Uol/tree/main/Alura/alura-plus" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
                     </div>
                 </article>
 
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/books.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Fruta e Fruto">
                     <div class="card-body">
                     <h5 class="card-title">Site Alura Books</h5>
                     <p class="card-text">Praticando HTML e CSS com responsividade mobile-first</p>
                     <a href="./Alura/alurabooks/index.html" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
+                    <a href="https://github.com/Cruz-Andre/Exercicios-Curso-Alura-Compass.Uol/tree/main/Alura/alurabooks" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
                     </div>
                 </article>
 
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/hzc.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Fruta e Fruto">
                     <div class="card-body">
                     <h5 class="card-title">Site HZC</h5>
                     <p class="card-text">Layouts com Flexbox e Grid, mais o desafio da página picos</p>
                     <a href="./Alura/FlexeGrid/index.html" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
+                    <a href="https://github.com/Cruz-Andre/Exercicios-Curso-Alura-Compass.Uol/tree/main/Alura/FlexeGrid" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
                     </div>
                 </article>
 
-                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                <article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
                     <img src="img/online.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Fruta e Fruto">
                     <div class="card-body">
                     <h5 class="card-title">Site Loja Online</h5>
                     <p class="card-text">Simplificando Layouts com Grid e responsividade mobile</p>
                     <a href="./Alura/CSS Grid Simplificando Layouts/index.html" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
+                    <a href="https://github.com/Cruz-Andre/Exercicios-Curso-Alura-Compass.Uol/tree/main/Alura/CSS%20Grid%20Simplificando%20Layouts" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
                     </div>
                 </article>
             </div>
         </section>
+        <footer class="rodape">
+            <p class="rodape__texto">André Cruz - 2022</p>
+        </footer>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
