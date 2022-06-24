@@ -17,6 +17,11 @@ body {
     font-weight: 600;
 }
 
+.navbar__icone {
+    width: 30px;
+    height: 24px;
+}
+
 .container__secao {
     border: 2px solid rgba(11, 172, 204, 0.7);
     border-radius: 10px;
@@ -63,11 +68,16 @@ body {
 
 .rodape {
     background-color: rgba(244, 241, 235, 0.95);
-    margin: 0;
 }
 
 .rodape__texto {
-    padding: 1rem 0;
-    text-align: center;
     font-family: Verdana, sans-serif;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-brand__icone {
+        display: none;
+    }
+    
 }
