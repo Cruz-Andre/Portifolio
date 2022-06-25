@@ -1,0 +1,154 @@
+
+/* Primeiro, é preciso saber exatamente o que desejamos reposicionar, no caso, o título e a nav. 
+Se observarmos o arquivo index.html descobrimos que o container é o elemento que envolve estes dois elementos, assim, é nele que precisamos definir o flex. Os filhos do item container vão seguir o que colocarmos nele, pois, ele é um elemento "pai"! */
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center; /*alinha verticalmente no centro*/
+    justify-content: space-between; /* coloca o espaço vazio entre os conteúdos */
+   
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex; /* colocou o menus em linha. o espaço entre eles já está definido no styles */
+}
+
+
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /*coloca os espaço vazio em volta dos conteúdos*/
+    width: 70%;
+    margin-right: 5%;
+
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex; /* coloca o input e o botão na mesma linha e juntos (colados) */
+}
+
+.rodapePrincipal-navMap-list {
+    height: 255px; /* define a altura do elemento */
+    display: flex;
+/*  flex-direction: column; direciona os conteudos em um única coluna */
+/*  flex-wrap: wrap; impede que o conteúdo ultrapasse a altura definida. Quebra para uma próxima coluna */
+    flex-flow: column wrap; /* junta as duas propriedade acima em uma única */
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin: 1%;
+}
+
+/* Para retirar as margens dos cantos extremos para manter proporções:
+Porém, para manter as proporções tais margens não fazem sentido, elas atrapalham mais do que ajudam! Então, no caso dos elementos da última coluna, estamos lidando com objetos nas posições 4, 8, 12 e 16, ou seja, itens que são múltiplos de 4. Portanto, no arquivo flexbox.css vamos adicionar o .conteudoPrincipal-cursos-link e acrescentar o nth-child(). Como queremos pegar o "quarto filho" adicionamos entre os parênteses o 4n. O código fica da seguinte maneira: */
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+}
+
+/* Falta retirar ainda a margem esquerda dos elementos da primeira coluna. Estes objetos estão na sequência dos objetos múltiplos de 4, isto é, depois do quarto vem o quinto, depois do oitavo vem o nono, depois do décimo segundo o décimo terceiro e assim por diante. Portanto, tais objetos equivalem a 4+1, então, vamos escrever nth-child(4n+1) e colocar também a margin-left: 0: */
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* Falta apenas lidar com o espaço que fica entre o texto e o botão, com o tamanho dos blocos que estão diferentes e também o espaço vazio a direita: Para resolver a situação do espaço sem preenchimento vamos incorporar o que não está preenchido junto do Vantagens do Alurinha, é como se aumentássemos o tamanho disso. Assim, acrescentamos no .videoSobre-sobre adicionamos o flex-grow que diz ao flex-item que ele deve crescer, passamos também o 2 como medida: */
+    flex-grow: 2;
+}
+
+/* Ainda falta o botão estar melhor estruturado! Ou seja, é preciso espaçá-lo! Assim, vamos distribuir o espaço vazio que está de baixo do botão, portanto, vamos utilizar o flex-grow: 1. Assim, vamos adicionar o .videoSobre-sobre-list: */
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+/* Ainda falta um detalhe que é redimensionar o tamanho do vídeo e o que equivale a ele é o videoSobre-video e adicionamos para ele também o flex-grow: 1:
+Assim, o tamanho do vídeo será distribuído de maneira a dividir o espaço com a parte de Vantagens. Se ao em vez de 1 tivéssemos colocado 2 o espaço total desta parte seria dividido em 3 cabendo ao vídeo 2/3 e ao Vantagens 1/2. Da mesma maneira podemos distribuir mais espaço para o Vantagens do que para o vídeo. Assim, colocando para o Vantagens um espaço maior, flex-grow: 3; teríamos 3/4 do espaço para o vantagens. */
+.videoSobre-video {
+    flex-grow: 1;
+    flex-shrink: 2;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .cabecalhoPrincipal-nav {
+        flex-direction:column;
+    }
+
+    .cabecalhoPrincipal .container{
+        flex-direction:column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .conteudoPrincipal-cursos {
+        flex-direction: column;
+    }
+
+    .conteudoPrincipal-cursos-link {
+        width: 100%;   
+    }
+
+    .rodapePrincipal-navMap-list {
+        height: auto;
+    }
+
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodapePrincipal-patrocinadores-list {
+        margin: 0;
+        width: 100%;
+        
+    }
+
+    .rodapePrincipal-contatoForm {
+        width: 100%;
+    }
+
+    .rodapePrincipal-contatoForm-fieldset {
+        justify-content: center;
+    }
+
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1; /* coloca o item no inicio -Olhe a posição original do 'nosso app' no html! */
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+        /* align-items: center; ver comentário abaixo */
+    }
+
+/* mesma coisa que align-items: center; mas o botão não fica esticado!  */
+    .videoSobre-video {
+        margin: 0 auto; 
+    }
+
+
+}
