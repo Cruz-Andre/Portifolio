@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    
+    //prompt de comando
+    function pulaLinha() {
+        document.write("<br><br>")
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+        return imc = peso / (altura ** 2);
+    }
+
+    var nome = prompt("Informe seu Nome");
+    var alturaInformada = prompt(nome + " Informe Sua Altura");
+    var pesoInformado = prompt(nome + " Informe Seu Peso");
+
+    var imc = calculaImc(alturaInformada, pesoInformado);
+
+    mostra(nome + ", o seu IMC é " + imc);
+
+    if(imc < 18.5) {
+        mostra("Você está abaixo do recomendado");
+    }
+    
+    if(imc > 35) {
+        mostra("Você está acima do recomendado");
+    }
+
+    if(imc >= 18.5 && imc <= 35) {
+        mostra ("Seu imc está excelente");
+    }
+    
+
+    // //retorno de função
+    // function pulaLinha() {
+    //     document.write("<br><br>")
+    // }
+
+    // function mostra(frase) {
+    //     document.write(frase);
+    //     pulaLinha();
+    // }
+
+    // function calculaImc(peso, altura) {
+    //     var imc = peso / (altura ** 2);
+    //     return imc;
+    // }
+
+    // var pesoEu = 105;
+    // var alturaEu = 1.81;
+    // var imcEu = calculaImc(pesoEu, alturaEu);
+    // mostra(imcEu);
+
+    // var pesoDela = 90;
+    // var alturaDela = 1.91;
+    // var imcDela = calculaImc(pesoDela, alturaDela);
+    // mostra(imcDela);
+
+    // //retorno de função outras maneiras
+    // function pulaLinha() {
+    //     document.write("<br><br>")
+    // }
+
+    // function mostra(frase) {
+    //     document.write(frase);
+    //     pulaLinha();
+    // }
+
+    // document.write("<hr>")
+
+    // function calculaImc(peso, altura) {
+    //     return imc = peso / (altura ** 2); /*<---*/
+    // }
+
+    // var pesoEu = 105;
+    // var alturaEu = 1.81;
+    // var imcEu = calculaImc(pesoEu, alturaEu);
+    // mostra(imcEu);
+
+    // var pesoDela = 90;
+    // var alturaDela = 1.91;
+    // var imcDela = calculaImc(pesoDela, alturaDela);
+    // mostra(imcDela);
+
+    // var totalImc = imcEu + imcDela; /*<---*/
+    // mostra("A soma dos imc's é " + totalImc); /*<---*/
+
+    // mostra("O meu IMC é " + calculaImc(48, 1.63)); /*<---*/
+
+
+    // function pulaLinha() {
+    //     document.write("<br><br>")
+    // }
+
+    // function mostra(frase) {
+    //     document.write(frase);
+    //     pulaLinha();
+    // }
+
+    // function calculaImc(peso, altura) {
+    //     var imc = peso / (altura ** 2);
+    //     mostra("o Imc calculdo é :" + imc);
+    // }
+
+    // var pesoEu = 83;
+    // var alturaEu = 1.81;
+    // calculaImc(pesoEu, alturaEu);
+
+    // var pesoDela = 90;
+    // var alturaDela = 1.91;
+    // calculaImc(pesoDela, alturaDela);
+
+
+    
+</script>
+</html>

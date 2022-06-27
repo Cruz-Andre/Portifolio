@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L.P. I & II</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // //concatenação 1820
+    // document.write("18" + "20");
+    //  //concatenação 1820
+    // document.write("<br>" + 18 + "20");
+    // document.write("<br>");
+
+    // var peso = 105;
+    // var altura = 1.81;
+    // // Cálculo do IMC -> peso dividido pela altura ao quadrado.
+    // let imc = peso / altura ** 2;
+    // let imc2 = peso / (altura ** 2);
+    // document.write("<br> imc = " + imc.toFixed(2) );
+    // document.write("<br> imc = " + imc2.toFixed(2) );
+    // document.write("<br>");
+    // document.write("<br>");
+    
+    // document.write("A" + "B" + 20 + 10 + "C" + (5 + 10) + "D");
+    // //Como 20 + 10 não estão entre parênteses e logo antes do numero 20 estamos tentando somar um texto (no caso a letra B) tanto 20 como 10 serão tratados como texto. Dessa forma o inicio do resultado ficaria AB2010 ao invés de AB30.
+    
+    // document.write("<br>");
+    // document.write(20 + 10);
+    // document.write("<br>");
+    // document.write("<br>");
+    
+    // var ano = 2022
+    // document.write("André tem " + (ano - 1981) + " anos");
+    // document.write("<br>");
+    // document.write("Flávio tem " + (ano - 1977) + " anos");
+    // document.write("<br>");
+    // document.write("Joaquim tem " + (ano - 1996)+ " anos");
+    // document.write("<br>");
+    // document.write("Barney tem " + (ano - 1976) + " anos");
+    // document.write("<br>");
+    // document.write("<br>");
+
+    // ano = 2023
+    // document.write("André tem " + (ano - 1981) + " anos");
+    // document.write("<br>");
+    // document.write("Flávio tem " + (ano - 1977) + " anos");
+    // document.write("<br>");
+    // document.write("Joaquim tem " + (ano - 1996)+ " anos");
+    // document.write("<br>");
+    // document.write("Barney tem " + (ano - 1976) + " anos");
+    // document.write("<br>");
+    // document.write("<br>");
+
+    // var n = 3
+    // document.write("O resultado da fórmula é : " + n * (10 / 20)  );
+
+    // document.write("<br>");
+    // document.write("<br>");
+    
+    // var tabuada = 8;
+    // document.write(tabuada + " vezes 1 é " + tabuada * 1 + "<br>");
+    // document.write(tabuada + " vezes 2 é " + tabuada * 2 + "<br>");
+    // document.write(tabuada + " vezes 3 é " + tabuada * 3 + "<br>");
+    // document.write(tabuada + " vezes 4 é " + tabuada * 4 + "<br>");
+    // document.write(tabuada + " vezes 5 é " + tabuada * 5 + "<br>");
+    // document.write(tabuada + " vezes 6 é " + tabuada * 6 + "<br>");
+    // document.write(tabuada + " vezes 7 é " + tabuada * 7 + "<br>");
+    // document.write(tabuada + " vezes 8 é " + tabuada * 8 + "<br>");
+    // document.write(tabuada + " vezes 9 é " + tabuada * 9 + "<br>");
+    // document.write(tabuada + " vezes 10 é " + tabuada * 10 + "<br>");
+
+    // document.write("<br>");
+
+    // //arredondar números com Math.round()
+    // var idadeAndre = 41;
+    // var idadeVico = 39;
+    // var idadeMaria = 20;
+    // var media = (idadeAndre + idadeVico + idadeMaria) / 3;
+    // document.write('A média das idades é ' + Math.round(media));
+
+    // document.write("<br><br>");
+
+    // var idadeLinda = 12;
+    // var idadeGuaraciara = 15;
+    // var idadePerola = 13;
+    // var somaIdades = idadeLinda + idadeGuaraciara + idadePerola;
+    // document.write("Soma das idades é " + (somaIdades / 3).toFixed(0));
+
+    // var puloLinha = "<br><br>";
+    // document.write(puloLinha);
+
+    
+    
+    // Criando funções
+    function pulaLinha() {
+        document.write("<br><br>")
+        // ou document.write("<br>");
+        //    document.write("<br>");
+    }
+    var ano = 2022;
+    mostra("no ano de " + ano + ":");
+    document.write("André tem " + (ano - 1981) + " anos");
+    pulaLinha();
+
+    document.write("Fofa tem " + (ano - 1977) + " anos");
+    pulaLinha();
+
+    document.write("Maria tem " + (ano - 1996)+ " anos");
+    pulaLinha();
+
+    // function mostra(frase) {
+    //     document.write(frase);
+    // }
+    // var ano = 2023;
+    // mostra("André tem " + (ano - 1981) + " anos");
+    // pulaLinha();
+
+    // //document.write("Fofa tem " + (ano - 1977) + " anos");
+    // mostra("Fofa tem " + (ano - 1977) + " anos");
+    // pulaLinha();
+
+    // //document.write("Maria tem " + (ano - 1996)+ " anos");
+    // mostra("Maria tem " + (ano - 1996)+ " anos");
+    // pulaLinha();
+
+    document.write("<hr>");
+
+//função mostra() recebendo uma outra função chamada pulaLinha();
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    var ano = 2024;
+    mostra("no ano de " + ano + ":");
+    //document.write("André tem " + (ano - 1981) + " anos");
+    mostra("André tem " + (ano - 1981) + " anos");
+    
+    //document.write("Fofa tem " + (ano - 1977) + " anos");
+    mostra("Fofa tem " + (ano - 1977) + " anos");
+    
+    //document.write("Maria tem " + (ano - 1996)+ " anos");
+    mostra("Maria tem " + (ano - 1996)+ " anos");
+    
+    var geracoes = (2022 - 1500) / 28;
+    mostra(geracoes);
+
+
+    
+    
+
+    
+
+
+
+</script>
+</html>
