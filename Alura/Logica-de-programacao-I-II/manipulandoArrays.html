@@ -13,10 +13,45 @@
     </main>
 
     <script>
-        var segredos = [5, 7, 10, 2, 3];
+
+        function sorteia() {
+            return Math.round(Math.random() * 10);
+        }
+
+        function sorteiaNumeros(quantidade) {
+            var segredos = [];
+            var numero = 1;
+            
+            while (numero <= quantidade) {
+
+                var numeroAleatorio = sorteia();
+                
+                if (numeroAleatorio !== 0) {
+
+                    var achou = false;
+
+                    for (var posicao = 0; posicao < segredos.length; posicao++) {
+                        if (segredos[posicao] == numeroAleatorio) {
+                            achou = true;
+                            break;
+                        }
+                    }
+
+                    if(achou == false) {
+                        segredos.push(numeroAleatorio);
+                        numero++;
+                    }
+                } 
+            }
+            return segredos;
+        }
+
+        var segredos = sorteiaNumeros(5);
+
+        console.log(segredos);
 
         var entrada = document.querySelector("input");
-        entrada.focus();
+        entrada.focus(); /* <--- quando carrega a página o cursos já está dentro do input */
 
         function verifica() {
             var achou = false;

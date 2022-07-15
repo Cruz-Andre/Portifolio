@@ -1,0 +1,41 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'grey';
+    pincel.fillRect(0, 0, 600, 400);
+
+/*O primeiro passo será criarmos duas variáveis. A primeira um array de cores, a segunda o índice da cor atual selecionada:*/
+    var cores = ["blue", "red", "green"];
+    var indiceCorAtual = 0;
+
+
+    function desenhaCirculo(evento) {
+
+        var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop;
+        pincel.fillStyle = cores[indiceCorAtual]; /*Repare que dentro da função desenhaCirculo definimos a cor passada para pincel.fillStyle, pegando-a do array de cores. Veja que para obtermos um valor do array, precisamos de seu índice e na primeira vez que o usuário abre a nossa aplicação, o valor de indiceCorAtual é 0, ou seja, o índice para a cor blue.*/
+        pincel.beginPath();
+        pincel.arc(x, y, 10, 0, 2 * 3.14);
+        pincel.fill();
+        console.log(x + ',' + y);
+    }
+
+    tela.onclick = desenhaCirculo;
+
+    /*Precisamos agora implementar a troca de cor através do clique do botão direito. Para isso, vamos alterar a função mudaCor, aquela que foi associada ao evento oncontextmenu da nossa tela. Lembre-se que é esse o evento que responde ao clique do botão direito do mouse.*/
+
+    /*Precisamos fazer um teste toda vez que mudaCor for chamado e verificar se o indiceCorAtual é maior ou igual à cores.length. Se for, alteramos o índice para 0.*/
+    function mudaCor() {
+        indiceCorAtual++
+
+        if (indiceCorAtual >= cores.length) {
+            indiceCorAtual = 0
+        }
+        return false;
+    }
+
+    tela.oncontextmenu = mudaCor;
+
+</script>

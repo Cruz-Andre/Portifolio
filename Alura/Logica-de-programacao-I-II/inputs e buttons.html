@@ -8,30 +8,28 @@
 </head>
 <body>
     <main>
-        <input/>
-        <button>Compare com o meu segredo</button>
+        <input/><button>Compare com o meu segredo</button>
     </main>
 
     <script>
         var segredos = [5, 7, 10, 2, 3];
 
         var entrada = document.querySelector("input");
-        entrada.focus();
+        entrada.focus(); /* <--- quando carrega a página o cursor já está dentro do input */
 
         function verifica() {
             var achou = false;
             for(var posicao = 0; posicao < segredos.length; posicao++) {
-
-            if(entrada.value == segredos[posicao]) {
+                if(entrada.value == segredos[posicao]) {
                 alert("Você Acertou!");
                 achou = true;
                 break;
+                }
             }
-        }
         
-        if (achou == false) {
-            alert("Você Errou!")
-        }
+            if (achou == false) {
+                alert("Você Errou!")
+            }
 
             entrada.value = "";
             entrada.focus();
