@@ -1,15 +1,19 @@
 import { Cliente } from "./Cliente.js";
-import { ContaCorrente } from "./ContaCorrente.js";
+import { Gerente } from "./JavaScript-Interfaces-Heranças-em-Orientação-a-Objetos/Funcionarios/gerente.js";
+import { Diretor } from "./JavaScript-Interfaces-Heranças-em-Orientação-a-Objetos/Funcionarios/Diretor.js";
+import { SistemaAutenticacao } from "./JavaScript-Interfaces-Heranças-em-Orientação-a-Objetos/SistemaAutenticacao.js";
 
-const cliente1 = new Cliente("Ricardo", 11122233309);
-const cliente2 = new Cliente("Alice", 88822233309);
+const diretor = new Diretor("Rodrigo", 10000, 1234567900);
+diretor.cadastrarSenha("123456789");
 
-const contaCorrenteRicardo = new ContaCorrente(1001, cliente1);
-contaCorrenteRicardo.depositar(500);
+const gerente = new Gerente("Ricardo", 5000, 1234512300);
+gerente.cadastrarSenha("123");
 
-const conta2 = new ContaCorrente(102, cliente2);
+const cliente = new Cliente("Lais", 11122233344, "456")
 
-let valor = 200;
-contaCorrenteRicardo.transferir(valor, conta2);
+const gerenteEstaLogado =  SistemaAutenticacao.login(gerente, "123");
+const diretorEstaLogado =  SistemaAutenticacao.login(diretor, "123456789");
 
-console.log(ContaCorrente.numeroDeContas);
+const clienteEstaLogado =  SistemaAutenticacao.login(cliente, "456");
+
+console.log(gerenteEstaLogado, diretorEstaLogado, clienteEstaLogado);
