@@ -1,0 +1,8 @@
+.rodapepe {
+    background-color: #6278F7;
+    color: #FFF;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
