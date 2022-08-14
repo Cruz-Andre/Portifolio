@@ -3,6 +3,7 @@ import { Step, StepLabel, Stepper, Typography } from '@mui/material'
 import DadosEntrega from './DadosEntrega.jsx'
 import DadosPessoais from './DadosPessoais.jsx'
 import DadosUsuario from './DadosUsuario.jsx'
+import './FormularioCadastro.css'
 
 //ao inves de props foi por desconstrução
 function FormularioCadastro({aoEnviar}) {
@@ -34,7 +35,7 @@ function FormularioCadastro({aoEnviar}) {
     
     return (
         <>
-        <Stepper activeStep={etapaAtual}>
+        <Stepper className="passos" activeStep={etapaAtual}>
             <Step><StepLabel>Login</StepLabel></Step>
             <Step><StepLabel>Pessoal</StepLabel></Step>
             <Step><StepLabel>Entrega</StepLabel></Step>
