@@ -17,9 +17,19 @@ body {
     font-weight: 600;
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
 .navbar__icone {
     width: 30px;
     height: 24px;
+}
+
+#ola {
+    margin-top: 7%;
+    text-align: center;
+    padding-top: 1rem;
 }
 
 .container__secao {
