@@ -1,6 +1,0 @@
- @media screen and (max-width: 430px) {
-    .passos {
-        flex-direction: column !important;
-        align-items: flex-start !important;
-    }
-}
