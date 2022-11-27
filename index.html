@@ -5,11 +5,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/png" href="img/favicon.png">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
 	<title>Portifólio André Cruz</title>
 </head>
 
@@ -18,7 +19,8 @@
 		<nav class="navbar navbar-expand-lg fixed-top container__secao">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">André Cruz GitHub Pages</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -26,22 +28,22 @@
 					<div class="navbar-nav">
 						<a class="nav-link active" aria-current="page" href="#">Home</a>
 						<a class="nav-link" href="#desafiosCompass">Desafios Compass.Uol</a>
-						<!-- <a class="nav-link" href="#pessoais">Projetos pessoais</a> -->
 						<a class="nav-link" href="#codecamp">Projetos pessoais</a>
 						<a class="nav-link" href="#alura">Exercícios e desafios da Alura & Rocketseat</a>
 					</div>
 				</div>
 
 				<a class="navbar-brand navbar-brand__icone" href="https://github.com/Cruz-Andre" target="_blank">
-					<img src="img/icon-github-big.svg" alt="" class="navbar__icone">
+					<img src="img/icon-github-big.svg" alt="ícone link para o GitHub" class="navbar__icone">
 				</a>
 
-				<a class="navbar-brand navbar-brand__icone" href="https://www.linkedin.com/in/andr%C3%A9-cruz-35a59822a" target="_blank">
-					<img src="img/icon-linkedin-big.svg" alt="" class="navbar__icone">
+				<a class="navbar-brand navbar-brand__icone" href="https://www.linkedin.com/in/andr%C3%A9-cruz-35a59822a"
+					target="_blank">
+					<img src="img/icon-linkedin-big.svg" alt="ícone link para o linkedin" class="navbar__icone">
 				</a>
 
 				<a class="navbar-brand navbar-brand__icone" href="https://www.instagram.com/acruztecinf/" target="_blank">
-					<img src="img/instagram-2-1-logo.svg" alt="" class="navbar__icone">
+					<img src="img/instagram-2-1-logo.svg" alt="ícone link para o instagram" class="navbar__icone">
 				</a>
 			</div>
 		</nav>
@@ -51,296 +53,39 @@
 
 		<section id="ola" class="container-fluid container__secao">
 			<h1>Olá, sou André Cruz</h1>
-			<p>Desenvolvedor front-end</p>
+			<p>Estudando HTML & CSS | JavaScript | React</p>
 			<p>Alguns dos meus projetos a seguir:</p>
 		</section>
 
 		<section id="desafiosCompass" class="container-fluid container__secao">
-			<div class="row text-center justify-content-center">
+			<div id="compass_uol" class="row text-center justify-content-center">
 				<h1 class="container__titulo">Desafios Compass.Uol</h1>
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/tintaspinta.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Tintas Pinta">
-					<div class="card-body">
-						<h5 class="card-title">Site Calculadora de Tintas</h5>
-						<p class="card-text">Uma aplicação web que ajude o usuário a calcular a quantidade de tinta necessária para pintar uma sala.</p>
-						<a href="https://cruz-andre.github.io/Compass-Uol-Desafio-2/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/Compass-Uol-Desafio-2" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
 
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/compassoracle.gif" class="card-img-top card-posicao-imagem" alt="gif do site meu primeiro e-commerce">
+				<article id="CompassUltimo" class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+					<img src="img/compassoracle.gif" class="card-img-top card-posicao-imagem"
+						alt="gif do site meu primeiro e-commerce">
 					<div class="card-body">
 						<h5 class="card-title">Site meu 1º e-commerce</h5>
 						<p class="card-text">
-							Criar um site de e-commerce usando a plataforma OSF (Oracle Storefront Framework) contendo componentes como carrossel, banner, formulário e uma action que busca dados de uma API externa
+							Criar um site de e-commerce usando a plataforma OSF (Oracle Storefront Framework) contendo componentes
+							como carrossel, banner, formulário e uma action que busca dados de uma API externa
 						</p>
 					</div>
 				</article>
 			</div>
 		</section>
 
-		<!-- <section id="pessoais" class="container-fluid container__secao">
-			<div class="row text-center justify-content-center">
-				<h1 class="container__titulo">Projetos pessoais</h1>
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/imc.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Barbearia Alura">
-					<div class="card-body">
-						<h5 class="card-title">Site Calculadora IMC</h5>
-						<p class="card-text">Projeto para por em prática conhecimentos adquiridos nos cursos da Alura/Compass.Uol, FreeCodeCamp e AlfamídiaMaisPraTi.</p>
-						<a href="https://cruz-andre.github.io/Calculadora-IMC/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/Calculadora-IMC" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" aria-hidden="true">
-					<img src="img/afazer2.jpg" class="card-img-top card-posicao-imagem" alt="Pensando em um próximo projeto">
-					<div class="card-body">
-						<h5 class="card-title">
-							<span class="col-6">Pensando em um próximo projeto</span>
-						</h5>
-						<p class="card-text placeholder-glow">
-							<span class="placeholder col-7"></span>
-							<span class="placeholder col-7"></span>
-							<span class="placeholder col-4"></span>
-							<span class="placeholder col-4"></span>
-							<span class="placeholder col-6"></span>
-							<span class="placeholder col-8"></span>
-						</p>
-						<a href="#" tabindex="-1" class="btn btn-info botao-cor-especial disabled placeholder col-6"></a>
-					</div>
-				</article>
-			</div>
-		</section> -->
-
 		<section id="codecamp" class="container-fluid container__secao">
-			<div class="row text-center justify-content-center">
+			<div id="freeCodeCamp" class="row text-center justify-content-center">
 				<h1 class="container__titulo">Projetos pessoais com base nos desafios da freeCodeCamp</h1>
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/tribute.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Pagina de tributo">
-					<div class="card-body">
-						<h5 class="card-title">Site em homenagem</h5>
-						<p class="card-text">Projeto: site homenagem com responsividade mobile, desafio freeCodeCamp</p>
-						<a href="https://cruz-andre.github.io/PaginaTributo/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/PaginaTributo" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
 
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/form.png" class="card-img-top card-posicao-imagem" alt="Imagem do site formulario">
-					<div class="card-body">
-						<h5 class="card-title">Site Formulário</h5>
-						<p class="card-text">Projeto: site de formulário com responsividade mobile, desafio freeCodeCamp.</p>
-						<a href="https://cruz-andre.github.io/Formulario/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/Formulario" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/productlandingpage.png" class="card-img-top card-posicao-imagem"
-						alt="Imagem do site product landing page">
-					<div class="card-body">
-						<h5 class="card-title">Site Produto ou Serviço</h5>
-						<p class="card-text">Projeto: Site de serviço com responsividade mobile, desafio freeCodeCamp.</p>
-						<a href="https://cruz-andre.github.io/ProductLandingPage/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/ProductLandingPage" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/TechnicalDocumentationPage.png" class="card-img-top card-posicao-imagem"
-						alt="Imagem do site de documentação">
-					<div class="card-body">
-						<h5 class="card-title">Site de documentação</h5>
-						<p class="card-text">Projeto: Site de documentação com menu suspenso a esquerda, desafio freeCodeCamp.</p>
-						<a href="https://cruz-andre.github.io/TechnicalDocumentationPage/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/TechnicalDocumentationPage" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4" aria-hidden="true">
-					<img src="img/afazer.jpg" class="card-img-top card-posicao-imagem" alt="na fila para fazer">
-					<div class="card-body">
-						<h5 class="card-title">
-							<span class="col-6">Na fila para fazer</span>
-						</h5>
-						<p class="card-text placeholder-glow">
-							<span class="placeholder col-7"></span>
-							<span class="placeholder col-4"></span>
-							<span class="placeholder col-4"></span>
-							<span class="placeholder col-6"></span>
-							<span class="placeholder col-8"></span>
-						</p>
-						<a href="#" tabindex="-1" class="btn btn-info botao-cor-especial disabled placeholder col-6"></a>
-					</div>
-				</article>
 			</div>
-
 		</section>
 
 		<section id="alura" class="container-fluid container__secao">
-			<div class="row text-center justify-content-center">
+			<div id="aluraRocket" class="row text-center justify-content-center">
 				<h1 class="container__titulo">Exercícios e desafios concluídos dos cursos da Alura e Rocketseat</h1>
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/alura.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Barbearia Alura">
-					<div class="card-body">
-						<h5 class="card-title">Site Barbearia Alura</h5>
-						<p class="card-text">Site com responsividade mobile ajustada e desafios realizados.</p>
-						<a href="https://cruz-andre.github.io/BarbeariaAlura/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/BarbeariaAlura" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
 
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/fruta.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Fruta e Fruto">
-					<div class="card-body">
-						<h5 class="card-title">Site Fruta e Fruto</h5>
-						<p class="card-text">Página com Bootstrap 5 e responsividade mobile</p>
-						<a href="https://cruz-andre.github.io/SiteFrutaFruto/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/SiteFrutaFruto" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/doguito.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Doguito">
-					<div class="card-body">
-						<h5 class="card-title">Site Doguito</h5>
-						<p class="card-text">Validação de formulário com javascript</p>
-						<a href="https://cruz-andre.github.io/DoguitoPetShop/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/DoguitoPetShop" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/aluramais.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Alura Plus">
-					<div class="card-body">
-						<h5 class="card-title">Site Alura Plus</h5>
-						<p class="card-text">Site do curso praticando HTML e CSS</p>
-						<a href="https://cruz-andre.github.io/aluraplus/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/aluraplus" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/books.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Alura Books">
-					<div class="card-body">
-						<h5 class="card-title">Site Alura Books</h5>
-						<p class="card-text">Praticando HTML e CSS com responsividade mobile-first</p>
-						<a href="https://cruz-andre.github.io/alurabooks/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/alurabooks" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/hzc.png" class="card-img-top card-posicao-imagem" alt="Imagem do site HZC">
-					<div class="card-body">
-						<h5 class="card-title">Site HZC</h5>
-						<p class="card-text">Layouts com Flexbox e Grid, mais o desafio da página picos</p>
-						<a href="https://cruz-andre.github.io/HZC/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/HZC" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/online.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Loja Online">
-					<div class="card-body">
-						<h5 class="card-title">Site Alura Store</h5>
-						<p class="card-text">Simplificando Layouts com Grid e responsividade mobile</p>
-						<a href="https://cruz-andre.github.io/AluraStore/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/AluraStore" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/flexbox.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Alurinha">
-					<div class="card-body">
-						<h5 class="card-title">Site Alurinha</h5>
-						<p class="card-text">Flexbox - Posicionando elementos na tela. com comentários.</p>
-						<a href="https://cruz-andre.github.io/Alurinha/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/Alurinha" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/introducaoJS.png" class="card-img-top card-posicao-imagem"
-						alt="Imagem do site Aparecida Nutrição">
-					<div class="card-body">
-						<h5 class="card-title">Site Aparecida Nutrição</h5>
-						<p class="card-text">JavaScript: programando na linguagem da web</p>
-						<a href="https://cruz-andre.github.io/AparecidaNutricao/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/AparecidaNutricao" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/aluramidi.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Alura Midi">
-					<div class="card-body">
-						<h5 class="card-title">Site Alura Midi</h5>
-						<p class="card-text">JavaScript para web: Crie páginas dinâmicas</p>
-						<a href="https://cruz-andre.github.io/AluraMidi/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/AluraMidi" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/robotron.png" class="card-img-top card-posicao-imagem" alt="Imagem do site Robotron 2000">
-					<div class="card-body">
-						<h5 class="card-title">Site Robotron 2000</h5>
-						<p class="card-text">JavaScript: Manipulando o DOM</p>
-						<a href="https://cruz-andre.github.io/Robotron2000/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/Robotron2000" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/organo.png" class="card-img-top card-posicao-imagem" alt="Imagem do site organo">
-					<div class="card-body">
-						<h5 class="card-title">Site Organo</h5>
-						<p class="card-text">React desenvolvendo com JavaScript</p>
-						<a href="https://organo-v1-0.vercel.app/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/OrganoV1.0" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/ignitelab.png" class="card-img-top card-posicao-imagem" alt="Imagem do Storybook ignitelab">
-					<div class="card-body">
-						<h5 class="card-title">Ignite Lab 03 Design System</h5>
-						<p class="card-text">Criar Design System no figma, exportar componentes para a base do projeto em React, documentação usando Storybook, criar testes automatizados</p>
-						<a href="https://cruz-andre.github.io/IgniteLab-DesignSystem/" target="_blank" class="btn btn-info botao-cor-especial mb-1">Visite o Storybook</a>
-						<a href="https://github.com/Cruz-Andre/IgniteLab-DesignSystem" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/aluratube.png" class="card-img-top card-posicao-imagem" alt="Imagem do Aluratube">
-					<div class="card-body">
-						<h5 class="card-title">Imersão React Aluratube</h5>
-						<p class="card-text">Projeto em React NextJS feito durante a Imersão React da Alura</p>
-						<a href="https://aluratube-swart-nine.vercel.app/" target="_blank" class="btn btn-info botao-cor-especial mb-1">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/aluratube" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/aluroni.png" class="card-img-top card-posicao-imagem" alt="Imagem do Aluroni">
-					<div class="card-body">
-						<h5 class="card-title">Site Aluroni</h5>
-						<p class="card-text">Curso: React Lidando Com Arquivos Estaticos</p>
-						<a href="https://aluroni-cruz-andre.vercel.app/" target="_blank" class="btn btn-info botao-cor-especial mb-1">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/aluroni" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
-
-				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-					<img src="img/organov2.png" class="card-img-top card-posicao-imagem" alt="Imagem do site organo">
-					<div class="card-body">
-						<h5 class="card-title">Site OrganoV2.0</h5>
-						<p class="card-text">React como os componentes funcionam</p>
-						<a href="https://organo-v2.vercel.app/" target="_blank" class="btn btn-info botao-cor-especial">Visite o site</a>
-						<a href="https://github.com/Cruz-Andre/OrganoV2" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
-					</div>
-				</article>
 			</div>
 		</section>
 
@@ -364,13 +109,20 @@
 		</footer>
 	</main>
 
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+	<script 
+		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
 		integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+		crossorigin="anonymous">
+	</script>
+	<script 
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
 		integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-		crossorigin="anonymous"></script>
+		crossorigin="anonymous">
+	</script>
 
+	<script type="module" src="./js/compass.js"></script>
+	<script type="module" src="./js/freeCodeCamp.js"></script>
+	<script type="module" src="./js/alura.js"></script>
 </body>
 
 </html>

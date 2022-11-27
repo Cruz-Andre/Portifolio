@@ -1,0 +1,10 @@
+[
+    {
+        "titulo": "Site Calculadora de Tintas",
+        "texto": "Uma aplicação web que ajude o usuário a calcular a quantidade de tinta necessária para pintar uma sala.",
+        "imagem": "img/tintaspinta.png",
+        "alt": "Imagem do site Tintas Pinta",
+        "site": "https://cruz-andre.github.io/Compass-Uol-Desafio-2/",
+        "repositorio": "https://github.com/Cruz-Andre/Compass-Uol-Desafio-2"
+    }
+]

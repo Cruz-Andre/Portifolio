@@ -1,0 +1,138 @@
+[
+    {
+        "imagem": "img/alura.png",
+        "alt": "Imagem do site Barbearia Alura",
+        "titulo": "Site Barbearia Alura",
+        "texto": "Site com responsividade mobile ajustada e desafios realizados.",
+        "site": "https://cruz-andre.github.io/BarbeariaAlura/",
+        "repositorio": "https://github.com/Cruz-Andre/BarbeariaAlura"
+    },
+    {
+        "imagem": "img/fruta.png",
+        "alt": "Imagem do site Fruta e Fruto",
+        "titulo": "Site Fruta e Fruto",
+        "texto": "Página com Bootstrap 5 e responsividade mobile",
+        "site": "https://cruz-andre.github.io/SiteFrutaFruto/",
+        "repositorio": "https://github.com/Cruz-Andre/SiteFrutaFruto"
+    },
+    {
+        "imagem": "img/doguito.png",
+        "alt": "Imagem do site Doguito",
+        "titulo": "Site Doguito",
+        "texto": "Validação de formulário com javascript",
+        "site": "https://cruz-andre.github.io/DoguitoPetShop/",
+        "repositorio": "https://github.com/Cruz-Andre/DoguitoPetShop"
+    },
+    {
+        "imagem": "img/aluramais.png",
+        "alt": "Imagem do site Alura Plus",
+        "titulo": "Site Alura Plus",
+        "texto": "Site do curso praticando HTML e CSS",
+        "site": "https://cruz-andre.github.io/aluraplus/",
+        "repositorio": "https://github.com/Cruz-Andre/aluraplus"
+    },
+    {
+        "imagem": "img/books.png",
+        "alt": "Imagem do site Alura Books",
+        "titulo": "Site Alura Books",
+        "texto": "Praticando HTML e CSS com responsividade mobile-first",
+        "site": "https://cruz-andre.github.io/alurabooks/",
+        "repositorio": "https://github.com/Cruz-Andre/alurabooks"
+    },
+    {
+        "imagem": "img/hzc.png",
+        "alt": "Imagem do site HZC",
+        "titulo": "Site HZC",
+        "texto": "Layouts com Flexbox e Grid, mais o desafio da página picos",
+        "site": "https://cruz-andre.github.io/HZC/",
+        "repositorio": "https://github.com/Cruz-Andre/HZC"
+    },
+    {
+        "imagem": "img/online.png",
+        "alt": "Imagem do site Loja Online",
+        "titulo": "Site Alura Store",
+        "texto": "Simplificando Layouts com Grid e responsividade mobile",
+        "site": "https://cruz-andre.github.io/AluraStore/",
+        "repositorio": "https://github.com/Cruz-Andre/AluraStore"
+    },
+    {
+        "imagem": "img/flexbox.png",
+        "alt": "Imagem do site Alurinha",
+        "titulo": "Site Alurinha",
+        "texto": "Flexbox - Posicionando elementos na tela. com comentários.",
+        "site": "https://cruz-andre.github.io/Alurinha/",
+        "repositorio": "https://github.com/Cruz-Andre/Alurinha"
+    },
+    {
+        "imagem": "img/introducaoJS.png",
+        "alt": "Imagem do site Aparecida Nutrição",
+        "titulo": "Site Aparecida Nutrição",
+        "texto": "JavaScript: programando na linguagem da web",
+        "site": "https://cruz-andre.github.io/AparecidaNutricao/",
+        "repositorio": "https://github.com/Cruz-Andre/AparecidaNutricao"
+    },
+    {
+        "imagem": "img/aluramidi.png",
+        "alt": "Imagem do site Alura Midi",
+        "titulo": "Site Alura Midi",
+        "texto": "JavaScript para web: Crie páginas dinâmicas",
+        "site": "https://cruz-andre.github.io/AluraMidi/",
+        "repositorio": "https://github.com/Cruz-Andre/AluraMidi"
+    },
+    {
+        "imagem": "img/robotron.png",
+        "alt": "Imagem do site Robotron 2000",
+        "titulo": "Site Robotron 2000",
+        "texto": "JavaScript: Manipulando o DOM",
+        "site": "https://cruz-andre.github.io/Robotron2000/",
+        "repositorio": "https://github.com/Cruz-Andre/Robotron2000"
+    },
+    {
+        "imagem": "img/organo.png",
+        "alt": "Imagem do site organo",
+        "titulo": "Site Organo",
+        "texto": "React desenvolvendo com JavaScript",
+        "site": "https://organo-v1-0.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/OrganoV1.0"
+    },
+    {
+        "imagem": "img/ignitelab.png",
+        "alt": "Imagem do Storybook ignitelab",
+        "titulo": "Ignite Lab 03 Design System",
+        "texto": "Criar Design System no figma, exportar componentes para a base do projeto em React, documentação usando Storybook, criar testes automatizados",
+        "site": "https://cruz-andre.github.io/IgniteLab-DesignSystem/",
+        "repositorio": "https://github.com/Cruz-Andre/IgniteLab-DesignSystem"
+    },
+    {
+        "imagem": "img/aluratube.png",
+        "alt": "Imagem do Aluratube",
+        "titulo": "Imersão React Aluratube",
+        "texto": "Projeto em React NextJS feito durante a Imersão React da Alura",
+        "site": "https://aluratube-swart-nine.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/aluratube"
+    },
+    {
+        "imagem": "img/aluroni.png",
+        "alt": "Imagem do Aluroni",
+        "titulo": "Site Aluroni",
+        "texto": "Curso: React Lidando Com Arquivos Estaticos",
+        "site": "https://aluroni-cruz-andre.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/aluroni"
+    },
+    {
+        "imagem": "img/organov2.png",
+        "alt": "Imagem do site organoV2",
+        "titulo": "Site OrganoV2.0",
+        "texto": "Curso: React como os componentes funcionam",
+        "site": "https://organo-v2.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/OrganoV2"
+    },
+    {
+        "imagem": "img/Alurabooksv2array.png",
+        "alt": "Imagem do site Alura Books V2 Array",
+        "titulo": "Site Alura Books V2.0",
+        "texto": "Curso: JavaScript: métodos de array | Site com resposividade mobile e busca informações de um json",
+        "site": "https://cruz-andre.github.io/AluraBooksV2Array/",
+        "repositorio": "https://github.com/Cruz-Andre/AluraBooksV2Array"
+    }
+]

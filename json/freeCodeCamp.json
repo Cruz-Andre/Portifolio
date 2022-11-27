@@ -1,0 +1,34 @@
+[
+    {
+        "imagem": "img/tribute.png",
+        "alt": "Imagem do site Pagina de homenagem",
+        "titulo": "Site em homenagem",
+        "texto": "Projeto: site homenagem com responsividade mobile, desafio freeCodeCamp",
+        "site": "https://cruz-andre.github.io/PaginaTributo/",
+        "repositorio": "https://github.com/Cruz-Andre/PaginaTributo"
+    },
+    {
+        "imagem": "img/form.png",
+        "alt": "Imagem do site formulario",
+        "titulo": "Site Formulário",
+        "texto": "Projeto: site de formulário com responsividade mobile, desafio freeCodeCamp.",
+        "site": "https://cruz-andre.github.io/Formulario/",
+        "repositorio": "https://github.com/Cruz-Andre/Formulario"
+    },
+    {
+        "imagem": "img/productlandingpage.png",
+        "alt": "Imagem do site product landing page",
+        "titulo": "Site Produto ou Serviço",
+        "texto": "Projeto: Site de serviço com responsividade mobile, desafio freeCodeCamp.",
+        "site": "https://cruz-andre.github.io/ProductLandingPage/",
+        "repositorio": "https://github.com/Cruz-Andre/ProductLandingPage"
+    },
+    {
+        "imagem": "img/TechnicalDocumentationPage.png",
+        "alt": "Imagem do site de documentação",
+        "titulo": "Site de documentação",
+        "texto": "Projeto: Site de documentação com menu suspenso a esquerda, desafio freeCodeCamp.",
+        "site": "https://cruz-andre.github.io/TechnicalDocumentationPage/",
+        "repositorio": "https://github.com/Cruz-Andre/TechnicalDocumentationPage"
+    }
+]
