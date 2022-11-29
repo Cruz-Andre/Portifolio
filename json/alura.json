@@ -134,5 +134,13 @@
         "texto": "Curso: JavaScript: métodos de array | Site com resposividade mobile e busca informações de um json",
         "site": "https://cruz-andre.github.io/AluraBooksV2Array/",
         "repositorio": "https://github.com/Cruz-Andre/AluraBooksV2Array"
+    },
+    {
+        "imagem": "img/Alurabooksvreact.png",
+        "alt": "Imagem do site Alura Books em React",
+        "titulo": "Site AluraBooks em React",
+        "texto": "Curso: React - crie sua primeira página web | Criação de componentes, uso do styled components, useState e props.",
+        "site": "https://alurabooksreact.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/alurabooksreact"
     }
 ]
