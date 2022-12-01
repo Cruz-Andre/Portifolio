@@ -112,14 +112,6 @@
         "repositorio": "https://github.com/Cruz-Andre/aluratube"
     },
     {
-        "imagem": "img/aluroni.png",
-        "alt": "Imagem do Aluroni",
-        "titulo": "Site Aluroni",
-        "texto": "Curso: React Lidando Com Arquivos Estaticos",
-        "site": "https://aluroni-cruz-andre.vercel.app/",
-        "repositorio": "https://github.com/Cruz-Andre/aluroni"
-    },
-    {
         "imagem": "img/organov2.png",
         "alt": "Imagem do site organoV2",
         "titulo": "Site OrganoV2.0",
@@ -142,5 +134,13 @@
         "texto": "Curso: React - crie sua primeira página web | Criação de componentes, uso do styled components, useState e props.",
         "site": "https://alurabooksreact.vercel.app/",
         "repositorio": "https://github.com/Cruz-Andre/alurabooksreact"
+    },
+    {
+        "imagem": "img/aluroni.png",
+        "alt": "Imagem do Aluroni",
+        "titulo": "Site Aluroni em React",
+        "texto": "Cursos: React - conhecendo a biblioteca React Router & Lidando com arquivos estaticos",
+        "site": "https://aluroni-react-router.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/aluroniReactRouter"
     }
 ]
