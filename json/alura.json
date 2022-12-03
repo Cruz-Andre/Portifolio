@@ -142,5 +142,13 @@
         "texto": "Cursos: React - conhecendo a biblioteca React Router & Lidando com arquivos estaticos",
         "site": "https://aluroni-react-router.vercel.app/",
         "repositorio": "https://github.com/Cruz-Andre/aluroniReactRouter"
+    },
+    {
+        "imagem": "img/aluraspace.png",
+        "alt": "Imagem do Alura Space",
+        "titulo": "Site Alura Space em React",
+        "texto": "Curso: React com JavaScript - lidando com arquivos estáticos",
+        "site": "https://alura-space-theta.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/alura-space"
     }
 ]
