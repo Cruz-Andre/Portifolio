@@ -150,5 +150,13 @@
         "texto": "Curso: React com JavaScript - lidando com arquivos estáticos",
         "site": "https://alura-space-theta.vercel.app/",
         "repositorio": "https://github.com/Cruz-Andre/alura-space"
+    },
+    {
+        "imagem": "img/blogspa.png",
+        "alt": "Imagem do blogspa",
+        "titulo": "Site Blog em React",
+        "texto": "Curso: React - desenvolvendo em React Router com JavaScript",
+        "site": "https://blogspa.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/blogspa"
     }
 ]
