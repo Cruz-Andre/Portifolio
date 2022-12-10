@@ -158,5 +158,13 @@
         "texto": "Curso: React - desenvolvendo em React Router com JavaScript",
         "site": "https://blogspa.vercel.app/",
         "repositorio": "https://github.com/Cruz-Andre/blogspa"
+    },
+    {
+        "imagem": "img/tratotechredux.png",
+        "alt": "Imagem do blogspa",
+        "titulo": "Site Trato Tech em React com Redux",
+        "texto": "Curso: React - gerenciamento de estados globais com Redux",
+        "site": "https://trato-tech-redux.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/trato-techRedux"
     }
 ]
