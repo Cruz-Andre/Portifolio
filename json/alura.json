@@ -161,7 +161,7 @@
     },
     {
         "imagem": "img/tratotechredux.png",
-        "alt": "Imagem do blogspa",
+        "alt": "Imagem do trato tech",
         "titulo": "Site Trato Tech em React com Redux",
         "texto": "Curso: React - gerenciamento de estados globais com Redux",
         "site": "https://trato-tech-redux.vercel.app/",
