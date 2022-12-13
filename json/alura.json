@@ -166,5 +166,29 @@
         "texto": "Curso: React - gerenciamento de estados globais com Redux",
         "site": "https://trato-tech-redux.vercel.app/",
         "repositorio": "https://github.com/Cruz-Andre/trato-techRedux"
+    },
+    {
+        "imagem": "img/mochila.png",
+        "alt": "Imagem do site mochila de viagem",
+        "titulo": "Site Mochila de Viagem usando locastorage",
+        "texto": "Curso Alura: JavaScript na Web - armazenando dados no navegador",
+        "site": "https://cruz-andre.github.io/mochila-de-viagem/",
+        "repositorio": "https://github.com/Cruz-Andre/mochila-de-viagem"
+    },
+    {
+        "imagem": "img/numero-secreto.png",
+        "alt": "Imagem do site Jogo de adivinhação",
+        "titulo": "Jogo de adivinhação usando recurso Web Speech API",
+        "texto": "Curso Alura: JavaScript - validações e reconhecimento de voz",
+        "site": "https://cruz-andre.github.io/numero-secreto/",
+        "repositorio": "https://github.com/Cruz-Andre/numero-secreto"
+    },
+    {
+        "imagem": "img/AlurabooksAPI.png",
+        "alt": "Imagem do site Alura Books preenchendo formulario",
+        "titulo": "Site Alura Books preenchendo formulário",
+        "texto": "Curso Alura: JavaScript - consumindo e tratando dados de uma API",
+        "site": "https://cruz-andre.github.io/AluraBooksAPI/",
+        "repositorio": "https://github.com/Cruz-Andre/AluraBooksAPI"
     }
 ]
