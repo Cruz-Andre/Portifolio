@@ -190,5 +190,13 @@
         "texto": "Curso Alura: JavaScript - consumindo e tratando dados de uma API",
         "site": "https://cruz-andre.github.io/AluraBooksAPI/",
         "repositorio": "https://github.com/Cruz-Andre/AluraBooksAPI"
+    },
+    {
+        "imagem": "img/monibank.png",
+        "alt": "Imagem do site MoniBank preenchendo formulario",
+        "titulo": "Site MoniBank valide formulários com JS",
+        "texto": "Curso Alura: JavaScript - validando formulários com JavaScript e HTML5",
+        "site": "https://cruz-andre.github.io/monibank/",
+        "repositorio": "https://github.com/Cruz-Andre/monibank"
     }
 ]
