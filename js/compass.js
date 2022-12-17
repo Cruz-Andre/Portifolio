@@ -2,7 +2,7 @@ import compass from '../json/compass.json' assert {type: 'json'}
 
 let desafios = []
 desafios = compass
-console.table(desafios)
+//console.table(desafios)
 
 const desafiosCompass = document.getElementById('compass_uol')
 

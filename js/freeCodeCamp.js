@@ -2,7 +2,7 @@ import freeCodeCamp from '../json/freeCodeCamp.json' assert {type: 'json'}
 
 let desafios = []
 desafios = freeCodeCamp
-console.table(desafios)
+//console.table(desafios)
 
 const desafiosfreeCodeCamp = document.getElementById('freeCodeCamp')
 

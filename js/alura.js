@@ -2,7 +2,7 @@ import alura from '../json/alura.json' assert {type: 'json'}
 
 let desafios = []
 desafios = alura
-console.table(desafios)
+//console.table(desafios)
 
 const desafiosAlura = document.getElementById('aluraRocket')
 
@@ -19,7 +19,7 @@ const mostrarProjetos = (listaDesafios) => {
 							<a href="${desafio.repositorio}" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
 						</div>
 				</article>
-        `
+      `
 	})
 }
 
