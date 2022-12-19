@@ -198,5 +198,13 @@
         "texto": "Curso Alura: JavaScript - validando formulários com JavaScript e HTML5",
         "site": "https://cruz-andre.github.io/monibank/",
         "repositorio": "https://github.com/Cruz-Andre/monibank"
+    },
+    {
+        "imagem": "img/cinetag.png",
+        "alt": "Imagem do site cinetag",
+        "titulo": "Site CineTag em React",
+        "texto": "Curso Alura: React - praticando React com JavaScript",
+        "site": "https://cinetag-pearl.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/cinetag"
     }
 ]
