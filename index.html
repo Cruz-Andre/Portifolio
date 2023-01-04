@@ -104,7 +104,7 @@
 						<img src="img/instagram-2-1-logo.svg" alt="" class="navbar__icone">
 					</a>
 				</div>
-				<p class="rodape__texto">André Cruz - 2022</p>
+				<p class="rodape__texto">André Cruz - <span id="ano"></span></p>
 			</nav>
 		</footer>
 	</main>
@@ -123,6 +123,10 @@
 	<script type="module" src="./js/compass.js"></script>
 	<script type="module" src="./js/freeCodeCamp.js"></script>
 	<script type="module" src="./js/alura.js"></script>
+	<script>
+		const ano = document.getElementById('ano')
+		ano.textContent = new Date().getFullYear()
+	</script>
 </body>
 
 </html>
