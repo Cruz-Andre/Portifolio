@@ -30,5 +30,13 @@
         "texto": "Projeto: Site de documentação com menu suspenso a esquerda, desafio freeCodeCamp.",
         "site": "https://cruz-andre.github.io/TechnicalDocumentationPage/",
         "repositorio": "https://github.com/Cruz-Andre/TechnicalDocumentationPage"
+    },
+    {
+        "imagem": "img/citacao.png",
+        "alt": "Imagem do site citação aleatória",
+        "titulo": "Site citação aleatória",
+        "texto": "Projeto: Site com gerador de citação aleatória, desafio freeCodeCamp.",
+        "site": "https://citacao-aleatoria.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/citacaoAleatoria"
     }
 ]
