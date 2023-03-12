@@ -72,14 +72,6 @@
         "repositorio": "https://github.com/Cruz-Andre/AparecidaNutricao"
     },
     {
-        "imagem": "img/aluramidi.png",
-        "alt": "Imagem do site Alura Midi",
-        "titulo": "Site Alura Midi",
-        "texto": "JavaScript para web: Crie páginas dinâmicas",
-        "site": "https://cruz-andre.github.io/AluraMidi/",
-        "repositorio": "https://github.com/Cruz-Andre/AluraMidi"
-    },
-    {
         "imagem": "img/robotron.png",
         "alt": "Imagem do site Robotron 2000",
         "titulo": "Site Robotron 2000",

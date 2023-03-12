@@ -35,8 +35,40 @@
         "imagem": "img/citacao.png",
         "alt": "Imagem do site citação aleatória",
         "titulo": "Site citação aleatória",
-        "texto": "Projeto: Site com gerador de citação aleatória, desafio freeCodeCamp.",
+        "texto": "Projeto: gerador de citação aleatória, desafio freeCodeCamp.",
         "site": "https://citacao-aleatoria.vercel.app/",
         "repositorio": "https://github.com/Cruz-Andre/citacaoAleatoria"
+    },
+    {
+        "imagem": "img/markdown1.png",
+        "alt": "Imagem do site markdown visualizer",
+        "titulo": "Site Markdown Visualizer",
+        "texto": "Projeto: pré-visualizador de markdown, desafio freeCodeCamp.",
+        "site": "https://markdown-visualizer.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/markdownVisualizer"
+    },
+    {
+        "imagem": "img/bateria.png",
+        "alt": "Imagem do site bateria eletronica",
+        "titulo": "Site Bateria Eletrônica",
+        "texto": "Projeto: Bateria Eletrônica, desafio freeCodeCamp.",
+        "site": "https://bateria-eletronica.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/bateriaEletronica"
+    },
+    {
+        "imagem": "img/calc.png",
+        "alt": "Imagem do site calculadora",
+        "titulo": "Site calculadora",
+        "texto": "Projeto: calculadora, desafio freeCodeCamp.",
+        "site": "https://calculadora-free-code-camp.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/calculadoraFreeCodeCamp"
+    },
+    {
+        "imagem": "img/cronometro.png",
+        "alt": "Imagem do site cronometro",
+        "titulo": "Site Relógio 25 + 5 (cronômetro)",
+        "texto": "Projeto: Relógio 25 + 5, desafio freeCodeCamp.",
+        "site": "https://cronometro-free-code-camp.vercel.app/",
+        "repositorio": "https://github.com/Cruz-Andre/cronometroFreeCodeCamp"
     }
 ]
