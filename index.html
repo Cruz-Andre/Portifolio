@@ -27,6 +27,7 @@
 				<div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
 						<a class="nav-link active" aria-current="page" href="#">Home</a>
+						<a class="nav-link" href="#senacTech">Projetos SenacTech</a>
 						<a class="nav-link" href="#desafiosCompass">Desafios Compass.Uol</a>
 						<a class="nav-link" href="#codecamp">Projetos pessoais</a>
 						<a class="nav-link" href="#alura">Exercícios e desafios da Alura & Rocketseat</a>
@@ -53,8 +54,25 @@
 
 		<section id="ola" class="container-fluid container__secao">
 			<h1>Olá, sou André Cruz</h1>
-			<p>Estudando HTML & CSS | JavaScript | React</p>
+			<p>Estudando HTML & CSS | JavaScript | React | SQL | Java | PHP</p>
 			<p>Alguns dos meus projetos a seguir:</p>
+		</section>
+
+		<section id="senacTech" class="container-fluid container__secao">
+			<div id="senac_tech" class="row text-center justify-content-center">
+				<h1 class="container__titulo">Projetos SenacTech</h1>
+
+				<article class="card bg-light borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+					<img src="img/bancoDeSangue.gif" class="card-img-top card-posicao-imagem" alt="gif do site meu primeiro e-commerce">
+					<div class="card-body">
+						<h5 class="card-title">bancoDeSangue</h5>
+						<p class="card-text">
+							Aplicação Java - CRUD para usuários/doadores e estoque de bolsas de sangue em hospitais
+						</p>
+						<a href="https://github.com/Cruz-Andre/bancoDeSangue" target="_blank" class="btn btn-info botao-cor-especial">Repositório Git</a>
+					</div>
+				</article>
+			</div>
 		</section>
 
 		<section id="desafiosCompass" class="container-fluid container__secao">
@@ -120,6 +138,7 @@
 		crossorigin="anonymous">
 	</script>
 
+	<script type="module" src="./js/senacTech.js"></script>
 	<script type="module" src="./js/compass.js"></script>
 	<script type="module" src="./js/freeCodeCamp.js"></script>
 	<script type="module" src="./js/alura.js"></script>
