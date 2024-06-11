@@ -1,4 +1,4 @@
-import compass from '../json/compass.json' assert {type: 'json'}
+import compass from '../json/compass.json' with {type: 'json'}
 
 let desafios = []
 desafios = compass

@@ -1,4 +1,4 @@
-import senacTech from '../json/senacTech.json' assert {type: 'json'}
+import senacTech from '../json/senacTech.json' with {type: 'json'}
 
 let desafios = []
 desafios = senacTech

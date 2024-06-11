@@ -1,4 +1,4 @@
-import freeCodeCamp from '../json/freeCodeCamp.json' assert {type: 'json'}
+import freeCodeCamp from '../json/freeCodeCamp.json' with {type: 'json'}
 
 let desafios = []
 desafios = freeCodeCamp

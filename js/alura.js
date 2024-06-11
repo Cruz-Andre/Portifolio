@@ -1,4 +1,4 @@
-import alura from '../json/alura.json' assert {type: 'json'}
+import alura from '../json/alura.json' with {type: 'json'}
 
 let desafios = []
 desafios = alura
