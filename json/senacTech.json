@@ -3,8 +3,16 @@
         "imagem": "img/bancoDeSangueWeb.png",
         "alt": "Imagem do site Banco De Sangue",
         "titulo": "Site Banco De Sangue",
-        "texto": "Projeto em desenvolvimento. Este projeto é uma aplicação web do bancoDeSangue feito em java. Mais informações no README.md do repositorio",
+        "texto": "Projeto em desenvolvimento. Este projeto é uma aplicação web do bancoDeSangue feito em java. Mais informações no README.md do repositório",
         "site": "https://cruz-andre.github.io/bancoDeSangueWeb/",
         "repositorio": "https://github.com/Cruz-Andre/bancoDeSangueWeb"
+    },
+    {
+        "imagem": "img/projetoAulaUC14.png",
+        "alt": "Imagem do site projetoAulaUC14 e UC15",
+        "titulo": "projetoAulaUC14 e UC15",
+        "texto": "Desenvolvimento de um sistema para a escola Senac Tech - Utilizando os recursos abordados até o momento no curso.",
+        "site": "https://cruz-andre.github.io/projetoAulaUC14/",
+        "repositorio": "https://github.com/Cruz-Andre/projetoAulaUC14"
     }
 ]
