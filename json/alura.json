@@ -1,5 +1,21 @@
 [
     {
+        "imagem": "img/numero-secreto.png",
+        "alt": "Imagem do site Jogo de adivinhação",
+        "titulo": "Jogo de adivinhação usando recurso Web Speech API",
+        "texto": "Curso Alura: JavaScript - validações e reconhecimento de voz",
+        "site": "https://cruz-andre.github.io/numero-secreto/",
+        "repositorio": "https://github.com/Cruz-Andre/numero-secreto"
+    },
+    {
+        "imagem": "img/frogcowgame.png",
+        "alt": "Imagem do site FrogCowGame",
+        "titulo": "Jogo FrogCowGame",
+        "texto": "Curso Alura: Lógica de programação - laços e listas com Javascript",
+        "site": "https://cruz-andre.github.io/FrogCow_Game/",
+        "repositorio": "https://github.com/Cruz-Andre/FrogCow_Game"
+    },
+    {
         "imagem": "img/alura.png",
         "alt": "Imagem do site Barbearia Alura",
         "titulo": "Site Barbearia Alura",
@@ -166,14 +182,6 @@
         "texto": "Curso Alura: JavaScript na Web - armazenando dados no navegador",
         "site": "https://cruz-andre.github.io/mochila-de-viagem/",
         "repositorio": "https://github.com/Cruz-Andre/mochila-de-viagem"
-    },
-    {
-        "imagem": "img/numero-secreto.png",
-        "alt": "Imagem do site Jogo de adivinhação",
-        "titulo": "Jogo de adivinhação usando recurso Web Speech API",
-        "texto": "Curso Alura: JavaScript - validações e reconhecimento de voz",
-        "site": "https://cruz-andre.github.io/numero-secreto/",
-        "repositorio": "https://github.com/Cruz-Andre/numero-secreto"
     },
     {
         "imagem": "img/AlurabooksAPI.png",

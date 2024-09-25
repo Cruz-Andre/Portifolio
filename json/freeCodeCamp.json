@@ -1,5 +1,29 @@
 [
     {
+        "imagem": "img/matrix.png",
+        "alt": "Imagem do site Matrix Rain",
+        "titulo": "Site Martix Rain",
+        "texto": "Projeto: A simple matrix rain",
+        "site": "https://cruz-andre.github.io/MatrixRain/",
+        "repositorio": "https://github.com/Cruz-Andre/MatrixRain"
+    },
+    {
+        "imagem": "img/textoutf8.png",
+        "alt": "Imagem do site converter texto em utf8",
+        "titulo": "Site Recodificando texto em UTF-8",
+        "texto": "Projeto: Recodificar um texto truncado em UTF-8 a partir de um api",
+        "site": "https://cruz-andre.github.io/Recodificando-texto-em-UTF-8-a-partir-de-uma-API/",
+        "repositorio": "https://github.com/Cruz-Andre/Recodificando-texto-em-UTF-8-a-partir-de-uma-API"
+    },
+    {
+        "imagem": "img/powershell.png",
+        "alt": "Imagem do repositório scripts do powershell",
+        "titulo": "Repositório Scripts do PowerShell",
+        "texto": "Projeto: Scripts do PowerShell",
+        "site": "https://github.com/Cruz-Andre/PowerShell_Scripts",
+        "repositorio": "https://github.com/Cruz-Andre/PowerShell_Scripts"
+    },
+    {
         "imagem": "img/tribute.png",
         "alt": "Imagem do site Pagina de homenagem",
         "titulo": "Site em homenagem",

@@ -39,7 +39,7 @@ body {
     margin-bottom: .6rem;
 }
 
-.container__secao:nth-child(4) {
+.container__secao:nth-child(5) {
     border: 2px solid rgba(11, 172, 204, 0.7);
     border-radius: 10px 10px 0 0;
     background-color: rgba(244, 241, 235, 0.95);
