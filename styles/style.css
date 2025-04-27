@@ -76,6 +76,27 @@ body {
     font-weight: 300;
 }
 
+.setaUP {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+    display: none; /* Escondido por padrão */
+}
+
+.setaUP img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.setaUP img:hover {
+    transform: scale(1.1);
+}
+
 .rodape {
     background-color: rgba(244, 241, 235, 0.95);
 }

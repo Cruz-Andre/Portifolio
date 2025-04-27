@@ -38,7 +38,7 @@
 					<img src="img/icon-github-big.svg" alt="ícone link para o GitHub" class="navbar__icone">
 				</a>
 
-				<a class="navbar-brand navbar-brand__icone" href="https://www.linkedin.com/in/andr%C3%A9-cruz-35a59822a"
+				<a class="navbar-brand navbar-brand__icone" href="https://www.linkedin.com/in/cruz-andre/"
 					target="_blank">
 					<img src="img/icon-linkedin-big.svg" alt="ícone link para o linkedin" class="navbar__icone">
 				</a>
@@ -54,7 +54,7 @@
 
 		<section id="ola" class="container-fluid container__secao">
 			<h1>Olá, sou André Cruz</h1>
-			<p>Estudando HTML & CSS | JavaScript | React | SQL | Java | PHP</p>
+			<p>Sempre estudando HTML & CSS | JavaScript | React | SQL | Java | PHP | Shell Script</p>
 			<p>Alguns dos meus projetos a seguir:</p>
 		</section>
 
@@ -108,6 +108,12 @@
 			</div>
 		</section>
 
+		<section class="setaUP">
+			<a href="#">
+				<img src="./img/setaParaCima.jpg" alt="uma seta para voltar ao topo da pagina">
+			</a>
+		</section>
+
 		<footer class="rodape">
 			<nav class="navbar justify-content-center">
 				<div class="container_fluid">
@@ -115,7 +121,7 @@
 						<img src="img/icon-github-big.svg" alt="" class="navbar__icone">
 					</a>
 
-					<a class="navbar-brand" href="https://www.linkedin.com/in/andr%C3%A9-cruz-35a59822a" target="_blank">
+					<a class="navbar-brand" href="https://www.linkedin.com/in/cruz-andre/" target="_blank">
 						<img src="img/icon-linkedin-big.svg" alt="" class="navbar__icone">
 					</a>
 
@@ -144,8 +150,19 @@
 	<script type="module" src="./js/freeCodeCamp.js"></script>
 	<script type="module" src="./js/alura.js"></script>
 	<script>
+		// Exibir o ano atual no rodapé
 		const ano = document.getElementById('ano')
 		ano.textContent = new Date().getFullYear()
+
+		// Mostrar/esconder setaUP ao rolar a página
+		const setaUP = document.querySelector('.setaUP')
+		window.addEventListener('scroll', () => {
+			if (window.scrollY > 1000) {
+				setaUP.style.display = 'block'
+			} else {
+				setaUP.style.display = 'none'
+			}
+		})
 	</script>
 </body>
 
