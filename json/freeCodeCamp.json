@@ -1,5 +1,13 @@
 [
     {
+        "imagem": "img/zabbix.png",
+        "alt": "Imagem do site Zabbix Scripts",
+        "titulo": "Zabbix Scripts",
+        "texto": "Este repositório contém scripts auxiliares para uso com o Zabbix",
+        "site": "https://github.com/Cruz-Andre/Zabbix_scripts",
+        "repositorio": "https://github.com/Cruz-Andre/Zabbix_scripts"
+    },
+    {
         "imagem": "img/textoutf8.png",
         "alt": "Imagem do site converter texto para utf8",
         "titulo": "Site Recodificando texto para UTF-8",
