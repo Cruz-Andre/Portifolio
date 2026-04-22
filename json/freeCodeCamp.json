@@ -1,11 +1,11 @@
 [
     {
         "imagem": "img/zabbix.png",
-        "alt": "Imagem do site Zabbix Scripts",
-        "titulo": "Zabbix Scripts",
-        "texto": "Este repositório contém scripts auxiliares para uso com o Zabbix",
-        "site": "https://github.com/Cruz-Andre/Zabbix_scripts",
-        "repositorio": "https://github.com/Cruz-Andre/Zabbix_scripts"
+        "alt": "Imagem do site Zabbix Templates e Scripts",
+        "titulo": "Zabbix Templates e Scripts",
+        "texto": "Este repositório contém templates e scripts auxiliares para uso com o Zabbix",
+        "site": "https://github.com/Cruz-Andre/Zabbix_templates",
+        "repositorio": "https://github.com/Cruz-Andre/Zabbix_templates"
     },
     {
         "imagem": "img/textoutf8.png",
