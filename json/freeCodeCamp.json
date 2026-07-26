@@ -1,5 +1,13 @@
 [
     {
+        "imagem": "img/recodificarmp4.png",
+        "alt": "Imagem do script",
+        "titulo": "Recodificando MP4",
+        "texto": "Script simples para recodificar todos os arquivos .mp4 em uma pasta e suas subpastas usando ffmpeg, substituindo cada arquivo original pelo resultado.",
+        "site": "https://github.com/Cruz-Andre/RecodificarMP4",
+        "repositorio": "https://github.com/Cruz-Andre/RecodificarMP4"
+    },
+    {
         "imagem": "img/zabbix.png",
         "alt": "Imagem do site Zabbix Templates e Scripts",
         "titulo": "Zabbix Templates e Scripts",
